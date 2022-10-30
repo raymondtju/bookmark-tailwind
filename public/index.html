@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d17ed42360.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bookmark</title>
+  </head>
+  <body class="font-Poppins">
+    <header>
+      <nav class="container flex items-center py-4 mt-2 sm:mt-12">
+        <div class="py-1">
+          <img src="./img/logo-bookmark.svg" alt="Logo Bookmark" />
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue-500 uppercase text-xs"
+        >
+          <li class="cursor-pointer">Features</li>
+          <li class="cursor-pointer">Pricing</li>
+          <li class="cursor-pointer">Contact</li>
+          <button
+            type="button"
+            class="text-white bg-red-400 rounded-md px-7 py-3 uppercase"
+          >
+            Login
+          </button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end text-sm">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <section class="relative">
+      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2 class="text-blue-500 text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+            Simple Bookmark Manager
+          </h2>
+          <p class="text-lg text-center lg:text-left mb-6">
+            A Clean and simple interface to organize your favourite websites.
+          </p>
+          <div class="flex justify-center flex-wrap gap-6">
+            <button type="button" class="btn btn-purple hover:bg-slate-100 hover:text-black">Get it on Chrome</button>
+            <button type="button" class="btn btn-white hover:bg-purple-200">Get it on Firefox</button>
+          </div>
+        </div>
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:3/4 lg:w-full lg:h-full" src="./img/hero-bg.png" alt="">
+        </div>
+      </div>
+
+      <div class="hidden md:block overflow-hidden bg-purple-400 rounded-l-full absolute h-80 w-2/4 top-16 right-0 lg:-bottom-28 lg:-right-36"></div>
+    </section>
+  </body>
+</html>
